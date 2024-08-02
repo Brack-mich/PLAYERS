@@ -1,0 +1,95 @@
+body{
+    background:url(maradonaback.jpg);
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.boxcontainer{
+    padding: 30px;
+    width: 20%;
+    max-height: 700px;
+    border: solid;
+    border-radius: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: solid #9d9b9b;
+}
+.boxcontainer h3{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+    border: solid;
+    border-radius: 20px;
+}
+.row {
+    display: flex;
+  background-color: #e6e4e4;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px 16px 16px 10px;
+}
+.row input{
+    background: transparent;
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    border: none;
+}
+.row button{
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background:#f76e05 ;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+}
+#players{
+    display: flex;
+    column-gap: 15px;
+    flex-direction: row;
+}
+#players img{
+    width: 200px;
+}
+#players div{
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+@media (min-width:801px) {
+    .boxcontainer{
+        padding: 30px;
+        width: 20%;
+        max-height: 700px;
+        border: solid;
+        border-radius: 30px;
+        background-color: transparent;
+        backdrop-filter: blur(20px);
+        border: solid #9d9b9b;
+    }
+    
+}
+@media  (min-width:10px) and (max-width:800px){
+    .boxcontainer{
+        padding: 30px;
+        width: 65%;
+        max-height: 700px;
+        border: solid;
+        border-radius: 30px;
+        background-color: transparent;
+        backdrop-filter: blur(20px);
+        border: solid #9d9b9b;
+    }
+    
+}
