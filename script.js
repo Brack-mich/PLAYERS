@@ -29,7 +29,8 @@ document.querySelectorAll('.SubmitBtn').forEach(button=>{
         div.innerHTML = fourthHtml
         playersList.appendChild(div)
         input_box.value = ''
-       }
+       }else{
+           alert('Wrong Nmae☺')
      
 
     })
